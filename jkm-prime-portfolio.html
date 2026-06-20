@@ -1,0 +1,828 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JKM Prime Digital Prints portfolio website for professional printing, customized gifts, shirts, mugs, notebooks, sintraboards, ID pictures, and corporate materials.">
+  <title>JKM Prime Digital Prints</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+<div class="floating-bg">
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+</div>
+
+  <div class="site-shell">
+    <nav class="floating-nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a class="brand-lockup" href="#home" aria-label="JKM Prime Digital Prints home">
+          <span class="brand-mark">
+            <!-- Palitan ang src ng actual logo file mo, halimbawa: images/jkm-logo.png -->
+            <img class="brand-logo" src="logo.png" alt="JKM Prime Digital Prints logo">
+          </span>
+          <span>
+            <span class="brand-title">JKM Prime<br>Digital Prints</span>
+          </span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#faqs">FAQs</a>
+          <a class="nav-link" href="#process">Order Process</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <div class="nav-cta">
+          <button class="mobile-menu" id="menuBtn" type="button" aria-label="Open menu">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header class="hero" id="home">
+        <div class="container-wide hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><i class="bi bi-stars"></i> Professional printing and customization</div>
+            <h1>JKM Prime Digital Prints</h1>
+            <p class="hero-lead">Premium printing, personalized products, and business-ready materials crafted with clean design, fast service, and reliable quality.</p>
+            <div class="hero-actions">
+              <button class="btn-premium btn-primary-navy" type="button" data-scroll="#portfolio">
+                <i class="bi bi-grid-3x3-gap"></i>
+                View Portfolio
+              </button>
+              <button class="btn-premium btn-outline-navy" type="button" data-scroll="#services">
+                <i class="bi bi-printer"></i>
+                Explore Services
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="swiper hero-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide hero-slide">
+                  <!-- Palitan ang src ng actual shirt image mo. -->
+                  <img loading="eager" src="Tshirt1.jpg">
+                  <div class="slide-caption"><span>Customized Shirts</span><h2>Wearable brand stories</h2></div>
+                </div>
+                <div class="swiper-slide hero-slide">
+                  <!-- Palitan ang src ng actual mug image mo. -->
+                  <img loading="lazy" src="mug1.jpg">
+                  <div class="slide-caption"><span>Gift Products</span><h2>Mugs made personal</h2></div>
+                </div>
+                <div class="swiper-slide hero-slide">
+                  <!-- Palitan ang src ng actual notebook image mo. -->
+                  <img loading="lazy" src="nb4.jpg">
+                  <div class="slide-caption"><span>Notebooks</span><h2>Clean everyday pieces</h2></div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about">
+        <div class="container-wide">
+          <div class="section-head reveal">
+            <div class="section-kicker">About the studio</div>
+            <h2 class="section-title">Modern production with a premium local touch.</h2>
+            <p class="section-copy">JKM Prime Digital Prints helps customers turn designs into polished, useful, and gift-ready products for personal use, events, schools, offices, and small businesses.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="panel about-copy reveal">
+              <p>From customized shirts and mugs to ID pictures, lamination, photocopying, sintraboards, notebooks, wallets, and corporate materials, every project is handled with attention to clarity, finish, and presentation.</p>
+              <p>The goal is simple: make each order look clean, professional, and worth sharing. Whether you need one personalized gift or a batch for an event, JKM Prime keeps the process easy from design confirmation to pickup or delivery.</p>
+              <button class="btn-premium btn-primary-navy" type="button" data-info="about">
+                <i class="bi bi-info-circle"></i>
+                Learn More
+              </button>
+            </div>
+
+            <div class="stats-grid reveal" id="statsGrid">
+              <div class="stat-card">
+                <i class="bi bi-lightning-charge"></i>
+                <strong>Fast</strong>
+                <span>Order Coordination</span>
+              </div>
+              <div class="stat-card">
+                <i class="bi bi-brush"></i>
+                <strong>Clean</strong>
+                <span>Design Presentation</span>
+              </div>
+              <div class="stat-card">
+                <i class="bi bi-gift"></i>
+                <strong>Custom</strong>
+                <span>Gift-Ready Products</span>
+              </div>
+              <div class="stat-card">
+                <i class="bi bi-shield-check"></i>
+                <strong>Trusted</strong>
+                <span>Print Service Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container-wide">
+          <div class="section-head reveal">
+            <div class="section-kicker">Products and services</div>
+            <h2 class="section-title">Customized products and essential printing in one place.</h2>
+          </div>
+
+          <div class="service-tabs reveal" aria-label="Service filters">
+            <button class="filter-btn active" data-service-filter="all" type="button">All Services</button>
+            <button class="filter-btn" data-service-filter="custom" type="button">Customized Products</button>
+            <button class="filter-btn" data-service-filter="print" type="button">Printing Services</button>
+          </div>
+
+          <div class="service-grid" id="serviceGrid"></div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="container-wide">
+          <div class="gallery-title-row reveal">
+            <h2>Gallery</h2>
+          </div>
+
+          <div class="portfolio-wrap">
+            <div class="portfolio-grid reveal" id="portfolioGrid"></div>
+          </div>
+        </div>
+      </section>
+
+<section id="featured">
+  <div class="container-wide">
+
+    <!-- TITLE -->
+    <div class="section-head reveal">
+      <div class="section-kicker">Premium Client Projects</div>
+      <h2 class="section-title">
+        High-volume printing solutions trusted by schools, businesses, and celebrity-owned brands.
+      </h2>
+    </div>
+
+    <div class="featured-stack">
+
+      <!-- 1 -->
+      <article class="panel featured-card reveal">
+        <div class="featured-media">
+          <img loading="lazy" src="lyceum.png" alt="Lyceum customized notebooks project">
+        </div>
+        <div class="featured-content">
+          <div class="section-kicker">Academic Printing Project</div>
+          <h3>400 pcs customized notebooks produced for Lyceum students.</h3>
+          <p>Successfully printed, assembled, and delivered 400 customized notebooks for Lyceum with consistent finishing and durable binding.</p>
+          <div class="tag-row">
+            <span class="tag">400 pcs</span>
+            <span class="tag">Notebooks</span>
+            <span class="tag">School Project</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="panel featured-card reveal">
+        <div class="featured-media">
+          <img loading="lazy" src="Calendar.png" alt="ISLAND GAS 2026 Calendar Project">
+        </div>
+        <div class="featured-content">
+          <div class="section-kicker">Corporate Calendar Production</div>
+          <h3>ISLAND GAS 2026 Calendar – 3,000 pcs bulk order.</h3>
+          <p>Produced and delivered 3,000 customized calendars with consistent branding and high-quality print output.</p>
+          <div class="tag-row">
+            <span class="tag">3,000 pcs</span>
+            <span class="tag">Corporate Order</span>
+            <span class="tag">Calendars</span>
+          </div>
+        </div>
+      </article>
+
+<!-- 3 -->
+<article class="panel featured-card reveal">
+  <div class="featured-media">
+    <img loading="lazy" src="GwenZ.png" alt="Customized shirts for Gwen Zamora business">
+  </div>
+
+  <div class="featured-content">
+    <div class="section-kicker">Celebrity Business Order</div>
+    <h3>Customized shirts for Gwen Zamora’s business team.</h3>
+    <p>Designed and produced premium customized shirts for Gwen Zamora’s business branding, ensuring high-quality print, comfortable fabric, and professional finish.</p>
+
+    <div class="tag-row">
+      <span class="tag">Customized Shirts</span>
+      <span class="tag">Celebrity Business</span>
+    </div>
+  </div>
+</article>
+
+<!-- 4 -->
+<article class="panel featured-card reveal">
+  <div class="featured-media">
+    <img loading="lazy" src="nb.png" alt="Customized notebooks for doctors">
+  </div>
+
+  <div class="featured-content">
+    <div class="section-kicker">Medical Institutional Order</div>
+    <h3>Customized 100 pcs notebooks for doctors and medical staff.</h3>
+    <p>Produced durable and professional-grade notebooks for medical professionals, designed for daily clinical use with clean layout and long-lasting binding.</p>
+
+    <div class="tag-row">
+      <span class="tag">100 pcs</span>
+      <span class="tag">Notebooks</span>
+      <span class="tag">Medical Use</span>
+    </div>
+  </div>
+</article>
+      <!-- 5 -->
+<article class="panel featured-card reveal">
+  <div class="featured-media">
+    <img loading="lazy" src="accenture.png" alt="Customized jackets for Accenture Philippines">
+  </div>
+
+  <div class="featured-content">
+    <div class="section-kicker">Corporate Uniform Production</div>
+    <h3>Customized jackets for Accenture Philippines employees.</h3>
+    <p>Produced high-quality customized jackets for Accenture Philippines, ensuring premium embroidery/print finish, corporate branding consistency, and professional appearance for company use.</p>
+
+    <div class="tag-row">
+      <span class="tag">Corporate Wear</span>
+      <span class="tag">Customized Jackets</span>
+      <span class="tag">Accenture PH</span>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+     <section id="feedback">
+  <div class="container-wide">
+    <div class="section-head reveal">
+      <div class="section-kicker">Why Choose Us</div>
+      <h2 class="section-title">Quality products, reliable service, and customer-focused solutions.</h2>
+      <p class="section-copy">We provide customized printing and gift services with attention to detail, affordable pricing, and fast turnaround times.</p>
+    </div>
+
+    <div class="feedback-grid reveal" id="feedbackGrid"></div>
+  </div>
+</section>
+
+      <section id="faqs">
+        <div class="container-wide">
+          <div class="section-head reveal">
+            <div class="section-kicker">FAQs</div>
+            <h2 class="section-title">Frequently Asked Questions (FAQ)</h2>
+          </div>
+
+          <div class="faq-wrap reveal" id="faqWrap">
+            <article class="faq-item open">
+              <button class="faq-question" type="button">
+                1. What services do you offer?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">We offer document printing, photo printing, ID photos, tarpaulin printing, sticker printing, invitations, customized shirts, and other printing-related services.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                2. How do I place an order?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">You can place an order through our website by submitting your order details and uploading your files. We will review your request and contact you if additional information is needed.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                3. What file formats do you accept?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">We accept PDF, JPG, PNG, DOCX, and most common file formats suitable for printing.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                4. How long does order processing take?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">Processing time varies depending on the type, quantity, and complexity of the order. Simple printing jobs are usually completed within the same day.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                5. Do you require a down payment?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">Yes. A minimum down payment of 50% of the total order amount is required before production can begin. The remaining balance must be settled before delivery or pickup.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                6. Do you accept rush orders?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">Yes, rush orders are accepted subject to availability and workload. Additional charges may apply.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                7. Can I review my design before printing?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">Yes. A digital preview or layout will be provided for your approval before production begins.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                8. What payment methods do you accept?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">We accept GCash, Maya, bank transfers, and cash payments.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                9. Do you issue Official Receipts (OR)?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">As a home-based business, we currently do not issue Official Receipts (OR). However, we provide our own transaction receipt as proof of payment and order confirmation.</div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" type="button">
+                10. Do you offer delivery or shipping?
+                <i class="bi bi-chevron-down"></i>
+              </button>
+              <div class="faq-answer">Yes. Delivery and shipping can be arranged; however, all shipping and delivery fees are the responsibility of the buyer unless otherwise agreed upon.</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+
+<section id="process-contact">
+  <div class="container-wide process-contact-grid">
+
+    <!-- ORDER PROCESS -->
+    <div id="process">
+      <div class="section-head reveal">
+        <div class="section-kicker">Order process</div>
+        <h2 class="section-title">A clear five-step flow from design to delivery.</h2>
+      </div>
+
+      <div class="timeline reveal" id="timeline">
+        <div class="timeline-step">
+          <div class="step-icon"><i class="bi bi-upload"></i></div>
+          <div><h3>Send Design</h3><p>Send your design, idea, name, logo, or layout reference.</p></div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-icon"><i class="bi bi-check2-circle"></i></div>
+          <div><h3>Confirmation</h3><p>Details, size, quantity, and final look are confirmed.</p></div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-icon"><i class="bi bi-wallet2"></i></div>
+          <div><h3>Payment</h3><p>Pay the agreed amount or required down payment.</p></div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-icon"><i class="bi bi-gear"></i></div>
+          <div><h3>Processing</h3><p>Your order is printed, assembled, and quality checked.</p></div>
+        </div>
+
+        <div class="timeline-step">
+          <div class="step-icon"><i class="bi bi-truck"></i></div>
+          <div><h3>Pickup or Delivery</h3><p>Receive your finished order ready for use or gifting.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="section-head reveal">
+        <div class="section-kicker">Contact</div>
+        <h2 class="section-title">Start your next print project with JKM Prime.</h2>
+      </div>
+
+      <div class="panel contact-card reveal">
+        <div class="brand-lockup mb-3">
+          <span class="brand-mark">
+            <img class="brand-logo" src="logo.png" alt="JKM Prime Digital Prints logo">
+          </span>
+          <span>
+            <span class="brand-title">JKM Prime<br>Digital Prints</span>
+            <span class="brand-sub">Professional Printing & Customization</span>
+          </span>
+        </div>
+
+        <div class="contact-list">
+          <a class="contact-action" href="tel:+630000000000">
+            <i class="bi bi-telephone"></i>
+            <span><strong>Contact Number</strong><span>09524776545</span></span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+
+          <a class="contact-action" href="https://www.facebook.com/Jkmprimedigitalprints" target="_blank">
+            <i class="bi bi-facebook"></i>
+            <span><strong>Facebook Page</strong><span>JKM Prime Digital Prints</span></span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+
+          <a class="contact-action" href="mailto:jkmprimedigitalprints@gmail.com">
+            <i class="bi bi-envelope"></i>
+            <span><strong>Email Address</strong><span>jkmprimedigitalprints@gmail.com</span></span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+
+          <a class="contact-action" href="https://maps.google.com/?q=GHQ+Road+South+Signal+Taguig" target="_blank">
+            <i class="bi bi-geo-alt"></i>
+            <span><strong>Business Address</strong><span>GHQ rd South Signal Taguig</span></span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+
+        <div class="map-frame">
+          <iframe
+            loading="lazy"
+            src="https://www.google.com/maps?q=GHQ+Road+South+Signal+Taguig&output=embed">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-wide footer-grid">
+        <div>
+          <div class="brand-lockup mb-3">
+            <span class="brand-mark">
+              <img class="brand-logo" src="logo.png" alt="JKM Prime Digital Prints logo">
+            </span>
+            <span>
+              <span class="brand-title">JKM Prime<br>Digital Prints</span>
+            </span>
+          </div>
+          <p>Professional, modern, trusted, high-quality printing services for personal gifts, events, school needs, and businesses.</p>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#faqs">FAQs</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <a href="#services">Customized Shirts</a>
+          <a href="#services">Customized Mugs</a>
+          <a href="#services">ID Pictures</a>
+          <a href="#services">Printing Services</a>
+          <a href="#services">Sintraboard</a>
+          <a href="#services">Customized Notebooks</a>
+          <a href="#services">Customized Calendar</a>
+        </div>
+        <div>
+          <h3>Business Hours</h3>
+          <p>Monday - Sunday</p>
+          <p>9:00 AM - 10:00 PM</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const SwalFire = Swal.mixin({
+      buttonsStyling: false,
+      customClass: {
+        popup: "jkm-swal",
+        confirmButton: "btn-premium btn-primary-navy jkm-confirm",
+        cancelButton: "btn-premium btn-outline-navy"
+      },
+      confirmButtonText: "Done"
+    });
+
+    // IMAGE EDITING GUIDE:
+    // Palitan lang ang image values dito ng sariling file path mo, halimbawa:
+    // image: "images/custom-shirt-1.jpg"
+    const serviceItems = [
+      {
+        title: "Customized T-Shirts",
+        category: "custom",
+        icon: "bi-person-bounding-box",
+        image: "tshirt1.jpg",
+        copy: "Personalized shirts for birthdays, events, teams, families, and brand merchandise."
+      },
+      {
+        title: "Customized Mugs",
+        category: "custom",
+        icon: "bi-cup-hot",
+        image: "mug1.jpg",
+        copy: "Gift-ready mugs with names, photos, logos, and clean presentation."
+      },
+      {
+        title: "Customized Wallets",
+        category: "custom",
+        icon: "bi-wallet2",
+        image: "wallet 1.jpg",
+        copy: "Compact personalized wallets for giveaways and everyday keepsakes."
+      },
+      {
+        title: "Tote Bags and Mousepads",
+        category: "custom",
+        icon: "bi-bag",
+        image: "totebag4.jpg",
+        copy: "Useful customized items for personal gifts, events, and small business promos."
+      },
+      {
+        title: "Notebooks and Sintraboards",
+        category: "custom",
+        icon: "bi-journal-text",
+        image: "nb3.jpg",
+        copy: "Polished notebooks, boards, and display pieces for school, office, and events."
+      },
+      {
+        title: "Black & White Printing",
+        category: "print",
+        icon: "bi-printer",
+        image: "bw.jpg",
+        copy: "Fast document printing for school requirements, forms, and office files."
+      },
+      {
+        title: "Colored Printing",
+        category: "print",
+        icon: "bi-palette",
+        image: "colored.jpg",
+        copy: "Clean colored outputs for reports, certificates, designs, and marketing materials."
+      },
+      {
+        title: "Photo Printing and ID Pictures",
+        category: "print",
+        icon: "bi-camera",
+        image: "idpic.jpg",
+        copy: "Photo prints and ID picture services prepared for personal and official use."
+      },
+      {
+        title: "Photocopy and Lamination",
+        category: "print",
+        icon: "bi-files",
+        image: "laminate.jpg",
+        copy: "Reliable photocopying and lamination for important documents and cards."
+      }
+    ];
+
+    const portfolioAlbums = [
+      // Palitan ang cover/photos values ng sarili mong image paths, halimbawa: "images/shirts-1.jpg"
+      {
+        title: "Customized Shirts Gallery",
+        count: 9,
+        cover: "tshirtcover.jpg",
+        photos: [
+          "tshirt1.jpg",
+          "tshirt2.jpg",
+          "tshirt3.jpg",
+          "tshirt4.jpg",
+          "tshirt5.jpg",
+          "tshirt6.jpg",
+          "tshirt7.jpg",
+          "tshirt8.jpg",
+          "tshirt9.jpg",
+          
+        ]
+      },
+      {
+        title: "Mugs & Gift Sets Gallery",
+        count: 9,
+        cover: "totebag4.jpg",
+        photos: [
+          "totebag1.jpg",
+          "totebag2.jpg",
+          "totebag3.jpg",
+          "totebag4.jpg",
+          "totebag5.jpg",
+          "souvenir1.jpg",
+          "mug1.jpg",
+          "mug2.jpg",
+          "magnet1.jpg",
+
+      
+        ]
+      },
+      {
+        title: "Notebooks & Sintraboard",
+        count: 6,
+        cover: "nbcover.jpg",
+        photos: [
+          "nb1.jpg",
+          "nb2.jpg",
+          "nb3.jpg",
+          "nb4.jpg",
+          "sintra1.jpg",
+          "sintra2.jpg",
+        ]
+      }
+    ];
+
+const feedbackItems = [
+  {
+    name: "High-Quality Output",
+    project: "Premium Printing",
+    photo: "https://images.unsplash.com/photo-1586227740560-8cf2732c1531?auto=format&fit=crop&w=800&q=80",
+    message: "Sharp prints, vibrant colors, and durable materials for every order."
+  },
+  {
+    name: "Affordable Pricing",
+    project: "Budget-Friendly Services",
+    photo: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+    message: "Competitive rates without compromising product quality."
+  },
+  {
+    name: "Fast Turnaround",
+    project: "Quick Processing",
+    photo: "https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?auto=format&fit=crop&w=800&q=80",
+    message: "Orders are processed efficiently to meet your deadlines."
+  }
+];
+
+    const serviceGrid = document.getElementById("serviceGrid");
+    const portfolioGrid = document.getElementById("portfolioGrid");
+    const feedbackGrid = document.getElementById("feedbackGrid");
+    const navLinks = document.getElementById("navLinks");
+
+    function renderServices(filter = "all") {
+      serviceGrid.innerHTML = serviceItems
+        .filter(item => filter === "all" || item.category === filter)
+        .map(item => `
+          <article class="service-card reveal in-view">
+            <div class="service-media skeleton">
+              <img loading="lazy" src="${item.image}" alt="${item.title}">
+            </div>
+            <div class="service-body">
+              <div class="service-icon"><i class="bi ${item.icon}"></i></div>
+              <h3>${item.title}</h3>
+              <p>${item.copy}</p>
+            </div>
+          </article>
+        `).join("");
+    }
+
+    function renderPortfolio() {
+      portfolioGrid.innerHTML = portfolioAlbums.map((album, index) => `
+          <article class="portfolio-item" data-album-index="${index}">
+            <img loading="lazy" src="${album.cover}" alt="${album.title}">
+            <div class="portfolio-overlay">
+              <strong>${album.title}</strong>
+              <span><i class="bi bi-images"></i>${album.count} Photos</span>
+            </div>
+          </article>
+        `).join("");
+    }
+
+    function renderFeedback() {
+      feedbackGrid.innerHTML = feedbackItems.map(item => `
+        <article class="panel feedback-card">
+          <div class="feedback-head">
+            <img class="feedback-photo" loading="lazy" src="${item.photo}" alt="${item.name} feedback photo">
+            <div>
+              <h3>${item.name}</h3>
+              <span>${item.project}</span>
+            </div>
+          </div>
+          <p>"${item.message}"</p>
+        </article>
+      `).join("");
+    }
+
+    function smoothScroll(target) {
+      const el = document.querySelector(target);
+      if (!el) return;
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      navLinks.classList.remove("open");
+    }
+
+    function showPortfolioModal(album) {
+      const photos = album.photos.map(photo => `<img src="${photo}" alt="${album.title} photo">`).join("");
+      SwalFire.fire({
+        width: "min(760px, calc(100% - 24px))",
+        showCloseButton: true,
+        confirmButtonText: "Close Gallery",
+        html: `
+          <div class="text-start">
+            <div class="section-kicker mb-1">Gallery</div>
+            <h2 style="color:#0b1f3a; font-weight:950; margin:0 0 12px; font-size:1.35rem;">${album.title}</h2>
+            <div class="modal-gallery-grid">${photos}</div>
+          </div>
+        `
+      });
+    }
+
+    new Swiper(".hero-swiper", {
+      effect: "fade",
+      loop: true,
+      speed: 900,
+      autoplay: {
+        delay: 3200,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+
+    renderServices();
+    renderPortfolio();
+    renderFeedback();
+
+    document.getElementById("menuBtn").addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+
+    document.querySelectorAll("[data-scroll]").forEach(button => {
+      button.addEventListener("click", () => smoothScroll(button.dataset.scroll));
+    });
+
+    document.querySelectorAll(".nav-link").forEach(link => {
+      link.addEventListener("click", event => {
+        event.preventDefault();
+        smoothScroll(link.getAttribute("href"));
+      });
+    });
+
+    document.querySelectorAll("[data-service-filter]").forEach(button => {
+      button.addEventListener("click", () => {
+        document.querySelectorAll("[data-service-filter]").forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+        renderServices(button.dataset.serviceFilter);
+      });
+    });
+
+    portfolioGrid.addEventListener("click", event => {
+      const item = event.target.closest(".portfolio-item");
+      if (!item) return;
+      showPortfolioModal(portfolioAlbums[Number(item.dataset.albumIndex)]);
+    });
+
+    document.getElementById("faqWrap").addEventListener("click", event => {
+      const button = event.target.closest(".faq-question");
+      if (!button) return;
+      button.closest(".faq-item").classList.toggle("open");
+    });
+
+    document.querySelector("[data-info='about']").addEventListener("click", () => {
+      SwalFire.fire({
+        title: "JKM Prime Digital Prints",
+        text: "A modern printing and customization studio focused on clean output, practical service, and polished presentation.",
+        confirmButtonText: "Nice"
+      });
+    });
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+          if (entry.target.id === "timeline") entry.target.classList.add("in-view");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .18 });
+
+    document.querySelectorAll(".reveal, #timeline").forEach(el => revealObserver.observe(el));
+
+    const sections = [...document.querySelectorAll("main section, header.hero")];
+    const sectionObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const id = entry.target.id;
+        document.querySelectorAll(".nav-link").forEach(link => {
+          link.classList.toggle("active", link.getAttribute("href") === `#${id}`);
+        });
+      });
+    }, { threshold: .42 });
+    sections.forEach(section => sectionObserver.observe(section));
+  </script>
+</body>
+</html>
